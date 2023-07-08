@@ -1,0 +1,44 @@
+.navbar {
+    position : fixed;
+    width : 100%;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 20px 0;
+    transition : all 0.4s ease;
+    /* background-color : #141414; */    
+}
+.navbar.nav__dark__bg{
+    background-color : #141414;
+    z-index: 100;
+}
+.nav__logo {
+    width : 80px;
+    margin-left : 20px;
+    object-fit : contain;
+}
+.nav__avatar {
+    width : 30px;
+    margin-right : 20px;
+    object-fit : contain;
+}
+@media (min-width : 768px) {
+    .nav__logo {
+        width  :120px;
+        margin-left : 40px;
+    }
+    .nav__avatar {
+        width : 60px;
+        border-radius : 20px;
+        margin-right : 40px;
+    }
+}
+@media (min-width : 1000px) {
+    .nav__logo {
+        width  :160px;
+        margin-left : 80px;
+    }
+    .nav__avatar {
+        margin-right : 80px;
+    }
+}
