@@ -1,5 +1,9 @@
-## DEMO 
-link -> https://netflix-clone-react-21664.web.app/
+## DEMO -> [click here](https://netflix-clone-react-21664.web.app/)
+
+## Features ->
+> 1. Dynamic banner, it changes every time we reload the page
+> 2. Added trailers for the movies in which you clicked (NOTE : tmdb api does not have a name for some movies so it won't show any trailer for them)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
